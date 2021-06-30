@@ -2,100 +2,202 @@
 <html lang="en">
     <head>
 
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
-        <link href="style.css" rel="stylesheet">
-        <title>Ben Willis Portfolio</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+      <link href="css/bootstrap.css" rel="stylesheet">
+      <title>Ben Willis Portfolio</title>
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+
+      <style>
+        
+        body, h1, h2, h3, button, a, p{
+          font-family: 'Rubik', sans-serif;
+        }
+
+        a{
+          font-weight: bold;
+        }
+
+        h1{
+          font-size: 400%;
+        }
+
+        button{
+          font-weight: 900;
+        }
+
+      </style>
     
     </head>
-    
+
     <body>
-    
+
         <header>
-            
-            <h1>BEN WILLIS 😎</h1>
-            <p class="centre">HI IM BEN</p>
-            <p>
-                <a>📝 </a><a href="https://github.com/FrostyWillis/portfolio/blob/main/Ben%20Willis%20Resume.pdf">CV</a><br>
-                <a>▶️ </a><a href="https://www.youtube.com/channel/UCBIw5RTVRkoBJ_VhRCZwG8Q">YouTube</a><br>
-                <a>▶️ </a><a href="https://crummycontent.bandcamp.com/">BandCamp</a><br>
-                <a>▶️ </a><a href="https://soundcloud.com/benwillismusic">SoundCloud</a><br>
+          
+          <div class="d-flex justify-content-center" style="padding-top: 10%;">
+            <h1 style="font-weight: 900;">BEN WILLIS 😎</h1>
+          </div>
+
+          <div class="d-flex justify-content-center" style="padding-top: 25px;">
+            <p class="centre" style="font-style: italic;">HI IM BEN</p>
+          </div>
+
+          <div class="d-flex justify-content-center" style="padding-top: 25px; padding-bottom: 25px;">
+            <p style="min-width: 150px; font-size: 150%; padding-right: 265px;">
+              <a>📝 </a><a href="https://github.com/FrostyWillis/portfolio/blob/main/Ben%20Willis%20Resume.pdf" class="link-dark">CV</a><br>
+              <a>▶️ </a><a href="https://www.youtube.com/channel/UCBIw5RTVRkoBJ_VhRCZwG8Q" class="link-dark">YouTube</a><br>
+              <a>🎺 </a><a href="https://crummycontent.bandcamp.com/" class="link-dark">BandCamp</a><br>
+              <a>☁️ </a><a href="https://soundcloud.com/benwillismusic" class="link-dark">SoundCloud</a><br>
             </p>
-            
+          </div>
+
         </header>
         
-        <!--Video Section-->
-        <table class="posts">
+        <div class="d-flex justify-content-center">
+
+          <div class="accordion accordion-flush" id="accordionMenu">
             
-            <h2>📽️ Video</h2>
+            <!--Video Section-->
+            <div class="accordion-item">
+  
+              
+              <h2 class="accordion-header" id="flush-headingOne">
+      
+                <button class="accordion-button collapsed" style="min-width: 500px;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  
+                  📽️ VIDEO
+  
+                </button>
+  
+              </h2>
+  
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionMenu">
+                
+                <div class="accordion-body">
+                  
+                  <div>
+              
+                    <div class="d-flex justify-content-start gap-3" style="padding-left: 2%; min-width: 250px;">
+  
+                      <p>23-05-2021</p>
+                      <a href="" class="link-dark">SHAPE DISCO</a>
+  
+                    </div>
+  
+                    <div class="d-flex justify-content-start gap-3" style="padding-left: 2%; min-width: 250px;">
+  
+                      <p>14-10-2018</p>
+                      <a href="" class="link-dark">TIM</a>
+  
+                    </div>
+  
+                  </div>
+  
+                
+                </div>
+              </div>
+  
+            </div>
+  
+            <!--Sound Section-->
+            <div class="accordion-item">
             
-            <tbody>
+              <h2 class="accordion-header" id="flush-headingTwo">
                 
-                <tr style="">
-                    <td class="posts-date">23-05-2021</td>
-                    <td class="posts-title"><a href="">SHAPE DISCO</a></td>
-                </tr>
+                <button class="accordion-button collapsed" style="min-width: 500px;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  
+                  🎹 SOUND
+  
+                </button>
+  
+              </h2>
+  
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionMenu">
                 
-                <tr style="">
-                    <td class="posts-date">14-10-2018</td>
-                    <td class="posts-title"><a href="">TIM</a></td>
-                </tr>
+                <div class="accordion-body">
+  
+                  <div>
+              
+                    <div class="d-flex justify-content-start gap-3" style="padding-left: 2%">
+                      
+                      <p>23-05-2021</p>
+                      <a href="" class="link-dark">SHAPE DISCO</a>
+  
+                    </div>
+  
+                    <div class="d-flex justify-content-start gap-3" style="padding-left: 2%">
+                      
+                      <p>14-10-2018</p>
+                      <a href="" class="link-dark">TIM</a>
+                      
+                    </div>
+  
+                  </div>
                 
-            </tbody>
-            
-        </table>
+                </div>
+  
+              </div>
+              
+            </div>
+  
+            <!--Games Section-->
+            <div class="accordion-item">
+  
+              <h2 class="accordion-header" id="flush-headingThree">
+                
+                <button class="accordion-button collapsed" style="min-width: 500px;" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  
+                  🕹️ GAMES
+  
+                </button>
+  
+              </h2>
+  
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionMenu">
+                
+                <div class="accordion-body">
+  
+                  <div>
+              
+                    <div class="d-flex justify-content-start gap-3" style="padding-left: 2%">
+                      
+                      <p>23-05-2021</p>
+                      <a href="" class="link-dark">Megaman Level</a>
+  
+                    </div>
+  
+                    <div class="d-flex justify-content-start gap-3" style="padding-left: 2%">
+                      
+                      <p>14-10-2018</p>
+                      <a href="" class="link-dark">Peebo</a>
+                      
+                    </div>
+  
+                    <div class="d-flex justify-content-start gap-3" style="padding-left: 2%">
+                      
+                      <p>14-10-2018</p>
+                      <a href="" class="link-dark">Quake Level</a>
+                      
+                    </div>
+  
+                  </div>
+  
+                </div>
+  
+              </div>
+  
+            </div>
+  
+          </div>
         
-        <!--Sound Section-->
-        <table class="posts">
-            
-            <h2>🎹 Sound</h2>
-            
-            <tbody>
-                
-                <tr style="">
-                    <td class="posts-date">23-05-2021</td>
-                    <td class="posts-title"><a href="">SHAPE DISCO</a></td>
-                </tr>
-                
-                <tr style="">
-                    <td class="posts-date">14-10-2018</td>
-                    <td class="posts-title"><a href="">TIM</a></td>
-                </tr>
-                
-            </tbody>
-            
-        </table>
+        </div>
         
-        <!--Game Section-->
-        <table class="posts">
-            
-            <h2>🕹️ Games</h2>
-            
-            <tbody>
-                
-                <tr style="">
-                    <td class="posts-date">23-05-2021</td>
-                    <td class="posts-title"><a href="">Megaman Level</a></td>
-                </tr>
-                
-                <tr style="">
-                    <td class="posts-date">14-10-2018</td>
-                    <td class="posts-title"><a href="">Peebo</a></td>
-                </tr>
-                
-                <tr style="">
-                    <td class="posts-date">14-10-2018</td>
-                    <td class="posts-title"><a href="">Quake Level</a></td>
-                </tr>
-                
-            </tbody>
-            
-        </table>
+
+        <script src="js/bootstrap.js"></script>
         
     </body>
-    
-    
+        
 </html>
