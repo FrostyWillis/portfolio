@@ -1,337 +1,481 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
 
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
- 
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-      <title>Ben Willis Portfolio</title>
-      <link rel="icon" href="./img/cooldood.svg">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-      <style>
+  <title>Ben Willis Portfolio</title>
+  <meta content="Ben Willis. Geelong/Melbourne Digital Media Artist, specialising in sound and video. View Ben Willis' previous works, get in contact with Ben Willis. Let's Make something cool together!" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/icons/cooldood.svg" rel="icon">
+  <link href="assets/img/icons/cooldood.svg" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="container">
+
+      <h1><a href="index.html"><b>BEN WILLIS</b></a><img src="assets/img/icons/cooldood.svg" alt="😎" style="width: 3rem; height: 3rem; padding-bottom: 8px;"></h1>
+      <h2><span>Digital Media Artist.</span></h2>
+      <h2>Geelong/Melbourne, Australia</h2>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link active" href="#header">Home</a></li>
+          <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link" href="#resume">Resume</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <div class="social-links">
+        <a href="https://www.youtube.com/channel/UCBIw5RTVRkoBJ_VhRCZwG8Q" target="_blank" class="youtube"><img src="assets/img/icons/yootoob.svg" alt="▶️" style="width: 2rem; height: 2rem;"></a>
+        <a href="https://www.instagram.com/fr_o_sty/" target="_blank" class="instagram"><img src="assets/img/icons/insta.svg" alt="📷" style="width: 2rem; height: 2rem;"></a>
+        <a href="https://soundcloud.com/benwillismusic" target="_blank" class="soundcloud"><img src="assets/img/icons/soundcloud.svg" alt="☁️" style="width: 2rem; height: 2rem;"></a>
+        <a href="https://crummycontent.bandcamp.com/" target="_blank" class="bandcamp"><img src="assets/img/icons/bandcamp.svg" alt="🎺" style="width: 2rem; height: 2rem;"></a>
+        <a href="https://www.linkedin.com/in/ben-willis-ba28411b8/" target="_blank" class="linkedin"><img src="assets/img/icons/linkedin.svg" alt="💼" style="width: 2rem; height: 2rem;"></a>
+      </div>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Portfolio Section ======= -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Portfolio</h2>
+        <p>My Stuff</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12 d-flex justify-content-center">
+          <ul id="portfolio-flters">
+            <li data-filter="*" class="filter-active">ALL</li>
+            <li data-filter=".filter-video">Video</li>
+            <li data-filter=".filter-sound">Sound</li>
+            <li data-filter=".filter-games">Games</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row portfolio-container">
+
+       
+          <div class="col-lg-4 col-md-6 portfolio-item filter-video">
+            <a href="https://youtu.be/0K4wr2zsY5Q" target="_blank">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/Video/ShapeDisco.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>SHAPE DISCO</h4>
+                  <p>23-05-2021</p>
+                  <i>VIDEO</i>
+                </div>
+              </div>
+            </a>
+          </div>
         
-        body, h1, h2, h3, button, a, p{
-          font-family: 'Rubik', sans-serif;
-          color: black;
-          text-decoration: none;
-          -webkit-touch-callout: none;
-          -webkit-user-select: none;
-          -khtml-user-select: none;
-          -moz-user-select: none;
-          -ms-user-select: none;
-          user-select: none;
-          margin: 0;
-        }
-
-        a{
-          font-weight: bold;
-        }
-
-        h1{
-          font-size: 2.5rem;
-        }
-
-        html {
-          overflow-y:scroll;
-          margin: 0;
-        }
-
-        .container {
-            height: 100%;
-            width: 20rem;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .accordion-button {
-          font-size: 1.7rem;
-          font-weight: 900;
-          position: relative;
-          background-color: none;
-          align-items: center;
-          width: 100%;
-          padding: 1rem 1.25rem;
-          color: #212529;
-          text-align: left;
-          border: 0;
-          border-radius: 0;
-          overflow-anchor: none;
-        }
-
-        .accordion-button:not(.collapsed) {
-          color: black;
-          background-color: none;
-          box-shadow: none;
-        }
-        .accordion-button:not(.collapsed)::after {
-          background-image: url("./img/arrow.svg");
-          transform: rotate(-180deg);
-        }
-        .accordion-button::after {
-          flex-shrink: 0;
-          width: 1.25rem;
-          height: 1.25rem;
-          margin-left: auto;
-          content: "";
-          background-image: url("img/arrow.svg");
-          background-repeat: no-repeat;
-          background-size: 1.25rem;
-          transition: transform 0.2s ease-in-out;
-        }
-
-        .accordion-button:focus {
-          z-index: 3;
-          border-color: none;
-          outline: 0;
-          box-shadow: none;
-        }
-
-        .accordion-body {
-        padding: 1rem 1.25rem;
-      }
-
-      .accordion-item {
-          background-color: none;
-          border: none;
-      }
-
-      body {
-        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	      background-size: 400% 400%;
-	      animation: gradient 50s ease infinite;
-        margin-bottom: 60px;
-      }
-
-
-      @keyframes gradient {
-        0% {
-          background-position: 0% 50%;
-        }
-        50% {
-          background-position: 100% 50%;
-        }
-        100% {
-          background-position: 0% 50%;
-        }
-      }
-
-      </style>
-    
-    </head>
-
-    <body>
-
-      <div style="background-color: white; margin-top: 4%; margin-bottom: 4%; padding-top: 64px; padding-bottom: 64px;"> 
+          <div class="col-lg-4 col-md-6 portfolio-item filter-video">
+            <a href="https://youtu.be/RRFlE6Q06yA" target="_blank">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/Video/Donny.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Donny</h4>
+                  <p>28-10-2020</p>
+                  <i>VIDEO</i>
+                </div>
+              </div>
+            </a>
+          </div>
+       
+          <div class="col-lg-4 col-md-6 portfolio-item filter-video">
+            <a href="https://youtu.be/Sr3qWAJBDNk" target="_blank">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/Video/HumanFarm.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Human Farm</h4>
+                  <p>16-10-2020</p>
+                  <i>VIDEO</i>
+                </div>
+              </div>
+            </a>
+          </div>
+            
+          <div class="col-lg-4 col-md-6 portfolio-item filter-video">
+            <a href="https://youtu.be/96FRUZDPcLU" target="_blank">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/Video/Puppeteer.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>The Puppeteer</h4>
+                  <p>05-06-2020</p>
+                  <i>VIDEO</i>
+                </div>
+              </div>
+            </a>
+          </div>
         
-        <header>
-          
-          <div class="d-flex justify-content-center">
-            <h1 style="font-weight: 900;">BEN WILLIS</h1>
-            <img src="img/cooldood.svg" alt="😎" style="width: 5rem; height: 5rem; padding-bottom: 2.4rem;">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-video">
+            <a href="https://youtu.be/mjnkW76CUDw" target="_blank">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/Video/InspirationIsCreation.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Inspiration is Creation</h4>
+                  <p>20-09-2019</p>
+                  <i>VIDEO</i>
+                </div>
+              </div>
+            </a>
           </div>
 
-          <div class="container" style="align-items: center;">
-            <div class="item centre"><p>Digital Media Artist. </p></div>
-            <div class="break"></div>
-            <div class="itemcentre"><i>GEELONG/MELBOURNE, AUSTRALIA</i></div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-sound">
+            <a href="https://youtu.be/il4znwENaXs" target="_blank">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/Sound/SpringToLife.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Spring To Life</h4>
+                  <p>19-06-2021</p>
+                  <i>SOUND</i>
+                </div>
+              </div>
+            </a>
+          </div>
+        
+          <div class="col-lg-4 col-md-6 portfolio-item filter-sound">
+            <a href="https://youtu.be/MA4J614En3A" target="_blank">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/Sound/Indoctrination.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Indoctrination</h4>
+                  <p>24-10-2020</p>
+                  <i>SOUND</i>
+                </div>
+              </div>
+            </a>
+          </div>
+        
+          <div class="col-lg-4 col-md-6 portfolio-item filter-sound">
+            <a href="https://youtu.be/OYTG1-VWi8s" target="_blank">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/Sound/TheWayBack.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>The Way Back</h4>
+                  <p>24-10-2020</p>
+                  <i>SOUND</i>
+                </div>
+              </div>
+            </a>
+          </div>   
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-sound">
+            <a href="https://youtu.be/of7Npdhq22I" target="_blank">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/Sound/ProcedualWorlds.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Procedual Worlds 2019 - (Re-score)</h4>
+                  <p>29-07-2020</p>
+                  <i>SOUND</i>
+                </div>
+              </div>
+            </a>
+          </div>
+        
+          <div class="col-lg-4 col-md-6 portfolio-item filter-sound">
+            <a href="https://youtu.be/iOSdNK09Ka8" target="_blank">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/Sound/LifeIsFine.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Life is Fine Part I: The Come Out to Play Saga</h4>
+                  <p>01-09-2019</p>
+                  <i>SOUND</i>
+                </div>
+              </div>
+            </a>
+          </div>
+        
+          <div class="col-lg-4 col-md-6 portfolio-item filter-games">
+            <a href="https://frostyben.itch.io/peebo" target="_blank">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/Games/Peebo.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>PEEBO</h4>
+                  <p>30-05-2021</p>
+                  <i>GAMES</i>
+                </div>
+              </div>
+            </a>
+          </div>
+        
+          <div class="col-lg-4 col-md-6 portfolio-item filter-games">
+            <a href="https://frostyben.itch.io/steep-courtyard" target="_blank">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/Games/SteepCourtyard.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Steep Courtyard</h4>
+                  <p>23-04-2021</p>
+                  <i>GAMES</i>
+                </div>
+              </div>
+            </a>
+          </div>
+        
+          <div class="col-lg-4 col-md-6 portfolio-item filter-games">
+            <a href="https://frostyben.itch.io/waterfall-castle" target="_blank">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/Games/WaterFallCastle.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Waterfall Castle</h4>
+                  <p>19-03-2021</p>
+                  <i>GAMES</i>
+                </div>
+              </div>
+            </a>
+          </div>
+        
+          <div class="col-lg-4 col-md-6 portfolio-item filter-games">
+            <a href="https://frostyben.itch.io/puredata-synth" target="_blank">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/Games/PureData.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Puredata Synth</h4>
+                  <p>05-06-2020</p>
+                  <i>GAMES</i>
+                </div>
+              </div>
+            </a>
+          </div>
+        
+      </div>
+
+    </div>
+  </section><!-- End Portfolio Section -->
+
+  <!-- ======= Resume Section ======= -->
+  <section id="resume" class="resume">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Resume</h2>
+        <p>my totally sick resume</p>
+        <h6><em>Quirky and playful digital media artist, focusing on projects that create memorable and fun experiences. Creative input at every stage of development no matter the chosen design medium.</em></h6>
+        <br>
+            <p>
+              <ul>
+                <li>📍 Geelong/Melbourne, Victoria, Australia</li>
+                <li>📞 0413 615 421</li>
+                <li>📧 aboutbenwillis@gmail.com</li>
+              </ul>
+        </p>
+      </div>
+
+      <br>
+
+      <div class="row">
+
+        <div class="col-lg-6">
+
+          <h3 class="resume-title">Skills 💡</h3>
+
+          <div class="resume-item">
+            <h4>Motion Design/Video Editing</h4>
+              <p>
+                <ul>
+                  <li>Adobe After Effects Compositing</li>
+                  <li>Adobe Premiere Video Editing</li>
+                  <li>Blender Compositing/Motion Tracking</li>
+                </ul>
+              </p>
           </div>
 
-          <div class="d-flex justify-content-center" style="padding-top: 32px; padding-bottom: 25px;">
-            <p style="min-width: 150px; font-size: 150%; padding-right: 60px;">
-              <img src="img/cv.svg" alt="📝 " style="width: 2rem; height: 2rem; padding-bottom: 0.3rem;"><a href="https://github.com/FrostyWillis/portfolio/blob/main/Ben%20Willis%20Resume.pdf" target="_blank" class="link-dark" style="padding-left: 0.5rem;">CV</a><br>
-              <img src="img/yootoob.svg" alt="▶️ " style="width: 2rem; height: 2rem;"><a href="https://www.youtube.com/channel/UCBIw5RTVRkoBJ_VhRCZwG8Q" target="_blank" class="link-dark" style="padding-left: 0.5rem;">YouTube</a><br>
-              <img src="img/insta.svg" alt="📷 " style="width: 2rem; height: 2rem;"><a href="https://www.instagram.com/fr_o_sty/" target="_blank" class="link-dark" style="padding-left: 0.5rem;">Instagram</a><br>
-	      <img src="img/soundcloud.svg" alt="☁️ " style="width: 2rem; height: 2rem;"><a href="https://soundcloud.com/benwillismusic" target="_blank" class="link-dark" style="padding-left: 0.5rem;">SoundCloud</a><br>
-              <img src="img/bandcamp.svg" alt="🎺 " style="width: 2rem; height: 2rem;"><a href="https://crummycontent.bandcamp.com/" target="_blank" class="link-dark" style="padding-left: 0.5rem;">BandCamp</a><br>
+          <div class="resume-item">
+            <h4>Sound Design</h4>
+              <p>
+                <ul>
+                  <li>Scoring/Soundtracking</li>
+                  <li>Foley and Sound Design</li>
+                  <li>FL Studio and Ableton</li>
+                </ul>
+              </p>
+          </div>
+
+          <div class="resume-item">
+            <h4>Animation</h4>
+              <p>
+                <ul>
+                  <li>Dragonframe Stop motion animation</li>
+                  <li>Adobe Illustrator & Photoshop</li>
+                </ul>
+              </p>
+          </div>
+
+          <div class="resume-item">
+            <h4>Programming/Game Design</h4>
+              <p>
+                <ul>
+                  <li>Unity & Godot Game engines</li>
+                  <li>C#, GDScript, html, css</li>
+                </ul>
+              </p>
+          </div>
+
+          <h3 class="resume-title">Work Experience 💼</h3>
+
+          <div class="resume-item">
+            <h4>Kermond’s Hamburgers Geelong</h4>
+            <h5>2018 - Present</h5>
+            <p><em>Geelong</em></p>
+            <p>Senior Cook/Leader</p>
+            <p>
+            <ul>
+              <li>Cooking Food</li>
+              <li>Serving Customers</li>
+              <li>Training Staff</li>
+              <li>Handling Money/Counting Register</li>
+            </ul>
+            </p>
+          </div>
+          <div class="resume-item">
+            <h4>Grandmas Bottom Drawer</h4>
+            <h5>2013 – 2018</h5>
+            <p><em>Geelong</em></p>
+            <p>Retail Staff Member</p>
+            <p>
+            <ul>
+              <li>Serving Customers</li>
+              <li>Handling Money</li>
+              <li>Wrapping Presents</li>
+            </ul>
             </p>
           </div>
 
-        </header>
-        
-        <div class="container">
+          <h3 class="resume-title">Volunteer Experience 👔</h3>
 
-          <div class="accordion accordion-flush" id="accordionFlushExample">
-          <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingOne">
-                
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                  <div class="d-flex justify-content-center">
+          <div class="resume-item">
+            <h4>Refugee Tutoring</h4>
+            <h5>2016 – 2017</h5>
+            <p><em>Northern Bay College</em></p>
+          </div>
+          
+          <div class="resume-item">
+            <h4>Aged Care Work</h4>
+            <h5>2016 – 2017</h5>
+            <p><em>Across Geelong</em></p>
+          </div>
 
-                    <img src="img/film.svg" alt="📽️" style="width: 3rem; height: 3rem; padding-bottom: 1rem;"> 
-                    <p style="padding-left: 0.5rem;">VIDEO</p>
+          <div class="resume-item">
+            <h4>Primary School Work Experience </h4>
+            <h5>2016</h5>
+            <p><em>South Geelong Primary School </em></p>
+          </div>
 
-                  </div>
-                  
-                </button>
+        </div>
 
-              </h2>
-              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                
-                <div class="accordion-body">
-                  
-                  <div class="d-flex justify-content-start gap-3" style="min-width: 250px; padding-left: 10px; padding-bottom: 10px;">
-  
-                    <p>23-05-2021</p>
-                    <a href="https://youtu.be/0K4wr2zsY5Q" target="_blank" class="link-dark">SHAPE DISCO</a>
+        <div class="col-lg-6">
 
-                  </div>
+          <h3 class="resume-title">Education 🏫</h3>
 
-                  <div class="d-flex justify-content-start gap-3" style="min-width: 250px; padding-left: 10px; padding-bottom: 10px;">
+          <div class="resume-item">
+            <h4>Bachelor of Design (Digital Media)</h4>
+            <h5>2019 - Present</h5>
+            <p><em>RMIT University, Melbourne</em></p>
+            <p>
+              <ul>
+                <li>3.9 GPA</li>
+                <li>Studied a range of Digital Media disciplines including video (Live action, animation, stop motion, motion graphics, 360 Video), sound (sound design, score work, foley) and programming (games, web design)</li>
+              </ul>
+              </p>
+          </div>
 
-                    <p>16-04-2021</p>
-                    <a href="https://youtu.be/Uavn7Loiugo" target="_blank" class="link-dark">pink sausage loses a hat</a>
+          <div class="resume-item">
+            <h4>VCE</h4>
+            <h5>2013 – 2018</h5>
+            <p><em>St Joseph’s College Geelong</em></p>
+            <p>
+              <ul>
+                <li>Graduated with 92.10 ATAR</li>
+                <li>Studied Media, Visual communication, and Software Development</li>
+              </ul>
+            </p>
+          </div>
 
-                  </div>
+          <h3 class="resume-title">Awards 🏆</h3>
 
-                  <div class="d-flex justify-content-start gap-3" style="min-width: 250px; padding-left: 10px; padding-bottom: 10px;">
+          <div class="resume-item">
+            <h4>VCE Honour Roll Media</h4>
+            <h5>2018</h5>
+            <p><em>Study Score of 47</em></p>
+          </div>
+          
+          <div class="resume-item">
+            <h4>VCE Honour Roll Software Development</h4>
+            <h5>2018</h5>
+            <p><em>Study Score of 42</em></p>
+          </div>
 
-                    <p>28-10-2020</p>
-                    <a href="https://youtu.be/RRFlE6Q06yA" target="_blank" class="link-dark">Donny</a>
+          <div class="resume-item">
+            <h4>GUFF Festival Submission</h4>
+            <h5>2020</h5>
+            <p><em>‘Indoctrination’ in collaboration w/ Chloe Greaney</em></p>
+          </div>
 
-                  </div>
+          <div class="resume-item">
+            <h4>GUFF Festival Submission</h4>
+            <h5>2020</h5>
+            <p><em>‘Indoctrination’ in collaboration w/ Chloe Greaney</em></p>
+          </div>
 
-                  <div class="d-flex justify-content-start gap-3" style="min-width: 250px; padding-left: 10px; padding-bottom: 10px;">
+          <h3 class="resume-title">References 📝</h3>
+          
+          <div class="resume-item">
+            <h4>Timothy Tanner</h4>
+            <h5>Kermond’s Geelong</h5>
+            <p>📞 0418 823 424</p>
+          </div>
 
-                    <p>16-10-2020</p>
-                    <a href="https://youtu.be/Sr3qWAJBDNk" target="_blank" class="link-dark">Human Farm</a>
-
-                  </div>
-
-                  <div class="d-flex justify-content-start gap-3" style="min-width: 250px; padding-left: 10px; padding-bottom: 10px;">
-
-                    <p>05-06-2020</p>
-                    <a href="https://youtu.be/96FRUZDPcLU" target="_blank" class="link-dark">The Puppeteer</a>
-
-                  </div>
-
-                  <div class="d-flex justify-content-start gap-3" style="min-width: 250px; padding-left: 10px; padding-bottom: 10px;">
-
-                    <p>20-09-2019</p>
-                    <a href="https://youtu.be/mjnkW76CUDw" target="_blank" class="link-dark">Inspiration is Creation</a>
-
-                  </div>
-
-                </div>
-
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingTwo">
-                
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                  
-                  <img src="img/music.svg" alt="🎹" style="width: 3rem; height: 3rem; padding-bottom: 1rem;"> 
-                  <p style="padding-left: 0.5rem;">SOUND</p>
-
-                </button>
-
-              </h2>
-              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                
-                <div class="accordion-body">
-
-                  <div class="d-flex justify-content-start gap-3" style="min-width: 250px; padding-left: 10px; padding-bottom: 10px;">
-  
-                    <p>19-06-2021</p>
-                    <a href="https://youtu.be/il4znwENaXs" target="_blank" class="link-dark">Spring To Life</a>
-
-                  </div>
-
-                  <div class="d-flex justify-content-start gap-3" style="min-width: 250px; padding-left: 10px; padding-bottom: 10px;">
-  
-                    <p>24-10-2020</p>
-                    <a href="https://youtu.be/MA4J614En3A" target="_blank" class="link-dark">Indoctrination</a>
-
-                  </div>
-                  
-                  <div class="d-flex justify-content-start gap-3" style="min-width: 250px; padding-left: 10px; padding-bottom: 10px;">
-  
-                    <p>24-10-2020</p>
-                    <a href="https://youtu.be/OYTG1-VWi8s" target="_blank" class="link-dark">The Way Back</a>
-
-                  </div>
-
-                  <div class="d-flex justify-content-start gap-3" style="min-width: 250px; padding-left: 10px; padding-bottom: 10px;">
-
-                    <p>29-07-2020</p>
-                    <a href="https://youtu.be/of7Npdhq22I" target="_blank" class="link-dark">Procedual Worlds 2019- (Re-score)</a>
-
-                  </div>
-
-                  <div class="d-flex justify-content-start gap-3" style="min-width: 250px; padding-left: 10px; padding-bottom: 10px;">
-
-                    <p>01-09-2019</p>
-                    <a href="https://youtu.be/iOSdNK09Ka8" target="_blank" class="link-dark">Life is Fine Part I: The Come Out to Play Saga</a>
-
-                  </div>
-
-                </div>
-
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingThree">
-
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                  
-                  <img src="img/games.svg" alt="🕹️" style="width: 3rem; height: 3rem; padding-bottom: 1rem;"> 
-                  <p style="padding-left: 0.5rem;">GAMES</p>
-
-                </button>
-
-              </h2>
-              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                
-                <div class="accordion-body">
-                  
-                  <div class="d-flex justify-content-start gap-3" style="min-width: 250px; padding-left: 10px; padding-bottom: 10px;">
-  
-                    <p>30-05-2021</p>
-                    <a href="https://frostyben.itch.io/peebo" target="_blank" class="link-dark">PEEBO</a>
-
-                  </div>
-
-                  <div class="d-flex justify-content-start gap-3" style="min-width: 250px; padding-left: 10px; padding-bottom: 10px;">
-  
-                    <p>23-04-2021</p>
-                    <a href="https://frostyben.itch.io/steep-courtyard" target="_blank" class="link-dark">Steep Courtyard</a>
-
-                  </div>
-
-                  <div class="d-flex justify-content-start gap-3" style="min-width: 250px; padding-left: 10px; padding-bottom: 10px;">
-  
-                    <p>19-03-2021</p>
-                    <a href="https://frostyben.itch.io/waterfall-castle" target="_blank" class="link-dark">Waterfall Castle</a>
-
-                  </div>
-
-                  <div class="d-flex justify-content-start gap-3" style="min-width: 250px; padding-left: 10px; padding-bottom: 10px;">
-  
-                    <p>05-06-2020</p>
-                    <a href="https://frostyben.itch.io/puredata-synth" target="_blank" class="link-dark">Puredata Synth</a>
-
-                  </div>
-
-                </div>
-
-              </div>
-            </div>
+          <div class="resume-item">
+            <h4>Liam Gibbons</h4>
+            <h5>RMIT Lecturer</h5>
+            <p>📧 liam.gibbons@rmit.edu.au</p>
           </div>
 
         </div>
 
       </div>
-        
-      <footer style="padding-top: 32px;"></footer>
-        <div class="d-flex justify-content-center">
-            <p style="font-weight: 10;;">© Ben Willis 2021</p>
-        </div>
-      </footer> 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </div>
+  </section><!-- End Resume Section -->
 
-    </body>
-        
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
